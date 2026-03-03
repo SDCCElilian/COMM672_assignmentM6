@@ -1,0 +1,184 @@
+body {
+    font-size: 1em;
+    line-height: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EFEFEF;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    color: #e6a563
+}
+
+a:hover {
+    color: #000;
+}
+
+.button {
+    background-color: #e6a563;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+/* Navigation Bar */
+nav a {
+    text-decoration: none;
+    color: #000
+}
+
+nav img {
+    width: 250px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FFCF83;
+}
+
+.hero .container {
+    display: flex;
+    background-color: #FFCF83;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: left;
+    width: 50%;
+}
+
+.hero img {
+    width: 25%;
+    display: flex;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    line-height: 1.25em;
+}
+
+h2 {
+    font-size: 1.4em;
+    line-height: 1.25em;
+    margin: 0;
+}
+
+h3 {
+    margin-bottom: -2px;
+}
+
+
+
+/* Features Section */
+.features {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.features-box {
+    background-color: #FFFFFF;
+    padding: 20px 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    max-width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-box img {
+    width: 250px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #222e50;
+    color: #FFFFFF;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.testimonials p {
+    color: #000;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 27%;
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 10px 0px;
+    margin-top: 0;
+}
+
+.team .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-block {
+    width: 211px;
+    font-style: italic;
+}
+
+.team-block p::first-line {
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Footer Section */
+footer {
+    background-color: #D9D9D9;
+    padding: 30px 0px;
+}
+
+footer img {
+    width: 35px;
+}
